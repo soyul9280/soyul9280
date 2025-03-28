@@ -1,6 +1,6 @@
 <!--타이틀 부분-->
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9e0bff2a-1dc2-4901-865b-a4aa9e7093ca" />
+  <img src="https://github.com/user-attachments/assets/8d8c5f2e-86f5-44cc-b75c-ca2ec78abf8e" />
 </div>
 
 <!--내용 부분-->
