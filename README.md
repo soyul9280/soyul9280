@@ -10,12 +10,12 @@
 
 ### 👩‍💻 About Me
 
-- 💬 모르는 것을 빠르게 질문하고, 자신의 의견을 드러내는 것에 불편함이 없습니다.  
+- 💬 모르는 것을 빠르게 질문하고, 자신의 의견을 드러낼 수 있도록 노력하고 있습니다.  
 - 🌱 성장을 즐깁니다.
 - 🔥 힘든 상황에도 '그냥 하자'마인드를 가지고 있습니다.  
 - 🤝 혼자보다 팀 프로젝트에 재미를 느낍니다.
   
-I **ask questions boldly** and **speak up my thoughts** with confidence.  
+I'm putting an effort to **ask questions quickly** and **speak up my thoughts** with confidence.  
 I enjoy growing through learning and collaboration.   
 Even in tough times, I keep moving with a **"Just do it" mindset**.  
 I love **teamwork** more than working alone.  
