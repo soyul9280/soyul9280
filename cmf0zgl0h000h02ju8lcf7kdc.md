@@ -18,7 +18,7 @@ Spring을 사용하면서 Lombok의 `@AllArgsConstructor`, `@RequiredArgsConstru
 
 ---
 
-## @AllArgsConstructor란?
+## `@AllArgsConstructor`란?
 
 ```java
 @AllArgsConstructor
@@ -40,7 +40,7 @@ User user = new User("Kim", "1234"); // id에 name이 들어가고, name에 id�
 
 → **같은 타입의 필드가 여러 개일 경우**, 필드 순서를 바꾸는 순간 **컴파일 에러가 발생하지 않고** 추후 인지하지 못한 버그가 발생할 수 있습니다. 자동으로 생성되기 때문에 추후 문제가 발생했을 때 버그를 잡기 어렵습니다.
 
-## 그렇다면 @RequiredArgsConstructor는 괜찮을까?
+## 그렇다면 `@RequiredArgsConstructor`는 괜찮을까?
 
 `@AllArgsConstructor`와 동일한 문제를 안고 있지만 편의성을 위해 이 정도는 인지하고 사용해도 괜찮다고 합니다.
 
@@ -73,6 +73,19 @@ public class MemberService {
 `@NoArgsConstructor` 은 기본 생성자를 자동으로 생성해줍니다. 하지만, 접근제어자를 명확하게 정의하지 않고 그대로 사용하면 의미 없는 객체 생성을 막을 수 없습니다. 따라서 `@NoArgsConstructor(access = AccessLevel.PROTECTED)`같이 접근제어자를 명시하여 코드의 안전성을 높이는 것이 좋습니다.
 
 또한, 메서드 레벨에서 `@Builder` 를 사용하여 의미있는 객체를 생성할 수 있습니다. 필드 순서를 보장해주기 코드의 안전성이 높아집니다.
+
+## 클래스 레벨에 `@Builder`를 붙이면 안되나?
+
+이번 프로젝트에서 클래스에 `@Builder`와 `@NoArgsConstructor`를 사용했었습니다. 하지만 `Lombok @Builder needs a proper constructor for this class`에러가 발생하였습니다. 이를 해결하기 위해서는 `@AllArgsConstructor`도 같이 사용해야합니다.
+
+에러가 발생하는 이유는 다음과 같습니다.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756723671566/25469bd8-2754-4c78-b32b-8bd927b77cb0.png align="center")
+
+정리해 보면 `@NoArgsConstructor`어노테이션이나 다른 생성자들이 존재하지 않을 경우 전체 생성자를 자동을 생성해 주고, 기본 생성자나 다른 생성자들이 존재하면 `@AllArgsConstructor`을 사용해서 직접 전체 생성자를 만들어줘야 합니다.  
+클래스 레벨에서 `@Builder`경우 기본 생성자를 생성해주는 `@NoArgsConstructor`와 같이 사용하게 된다면 `@Builder`에서 제공하는 암묵적 `@AllArgsConstructor`이 사라지게 되어 해당 오류가 발생합니다.
+
+따라서, `@AllArgsConstructor`의 위험성이 다시 나타나기 때문에 메서드 레벨에서 `@Builder`를 사용하는 것이 좋습니다.
 
 ## 참고자료
 
