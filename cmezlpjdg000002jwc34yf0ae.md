@@ -18,7 +18,7 @@ Spring 프로젝트를 개발하면서 사용자 입력을 **검증(Validation)*
 
 ---
 
-## 📚 @Valid란?
+## 📚 `@Valid`란?
 
 > JSR-303(자바 진영 표준) 기반의 객체의 제약 조건을 검증하도록 지시하는 **Bean Validation** 어노테이션
 > 
@@ -61,9 +61,9 @@ Spring에서는 일종의 어댑터인 LocalValidatorFactoryBean가 제약 조�
     * `@ModelAttribute`를 사용중이라면 `ModelAttributeMethodProcessor`가 처리
         
 
-cf) ArgumentResolver : @RequestBody가 붙은 데이터를 Json 포멧으로 변경
+cf) ArgumentResolver : `@RequestBody`가 붙은 데이터를 Json 포멧으로 변경
 
-## 🧩 @Validated란?
+## 🧩 `@Validated`란?
 
 입력 파라미터의 유효성 검증은 컨트롤러에서 최대한 처리하고 넘겨주는 것이 좋다. 하지만 개발을 하다보면 불가피하게 다른 곳에서 파라미터를 검증해야 할 수 있다. Spring에서는 이를 위해 AOP 기반으로 메소드의 요청을 가로채서 유효성 검증을 진행한다.
 
@@ -88,7 +88,7 @@ cf) ArgumentResolver : @RequestBody가 붙은 데이터를 Json 포멧으로 변
 
 1. Spring AOP의 유효성 검증을 위한 `MethodValidationInterceptor`가 클래스에 등록됨
     
-    * `MethodValidationInterceptor`에 Validator이 의존성 주입으로 들어가므로 @Valid와 똑같이 Hibernate Validator를 사용 → Bean Validation을 그대로 이용할 수 있음
+    * `MethodValidationInterceptor`에 Validator이 의존성 주입으로 들어가므로 `@Valid`와 똑같이 Hibernate Validator를 사용 → Bean Validation을 그대로 이용할 수 있음
         
 2. 메서드 호출 시 AOP가 포인트컷으로 확인을 하고 요청을 중간에 가로채어 유효성 검사 진행
     
@@ -114,11 +114,11 @@ cf) ArgumentResolver : @RequestBody가 붙은 데이터를 Json 포멧으로 변
 
 → 순서대로 그룹 검증을 적용
 
-위에서 살펴보았듯 @Validated의 기능으로 유효성 검증 그룹의 지정도 있지만 거의 사용되지 않으므로 유효성 검증 진행을 기준으로 차이를 살펴보도록 하자.
+위에서 살펴보았듯 `@Validated`의 기능으로 유효성 검증 그룹의 지정도 있지만 거의 사용되지 않으므로 유효성 검증 진행을 기준으로 차이를 살펴보도록 하자.
 
-## 🆚 @Valid vs @Validated 차이 정리
+## 🆚 `@Valid` vs `@Validated` 차이 정리
 
-| 항목 | @Valid | @Validated |
+| 항목 | `@Valid` | `@Validated` |
 | --- | --- | --- |
 | 제공 | JSR-303(Java 표준) | Spring 프레임워크 |
 | 적용 대상 | Controller 계층 | Spring Bean 전역 (Controller, Service 등) |
@@ -148,4 +148,4 @@ cf) ArgumentResolver : @RequestBody가 붙은 데이터를 Json 포멧으로 변
 
 [https://velog.io/@hellojihyoung/Spring-Valid와-Validation](https://velog.io/@hellojihyoung/Spring-Valid%EC%99%80-Validation)
 
-[eckrin**\[Spring\] @Valid와 @Validated를 이용한 순차 검증**](https://eckrin.tistory.com/201)​
+[eckrin\*\*\[Spring\] @Valid와 @Validated를 이용한 순차 검증\*\*](https://eckrin.tistory.com/201)​
