@@ -1,8 +1,8 @@
 ---
-title: "[Spring]@ElementController"
+title: "[Spring]@ElementCollection"
 datePublished: Sun Jun 22 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmezc8d9b000202jueysxarlh
-slug: springelementcontroller
+slug: springelementcollection
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756554158814/a07c791a-6373-47f7-9ea2-45ffecf97bc5.png
 tags: spring, elementcollection
 
@@ -10,7 +10,7 @@ tags: spring, elementcollection
 
 ## ✍️ 작성하게 된 이유
 
-프로젝트를 진행하다가 RDB안에 List를 저장해야하는 상황이 발생했다. ElementController와 Jsonb를 고민하는 과정에서 ElementController에 대해 정리해보고자 한다.
+프로젝트를 진행하다가 RDB안에 List를 저장해야하는 상황이 발생했다. ElementCollection과 Jsonb를 고민하는 과정에서 ElementCollection에 대해 정리해보고자 한다.
 
 값 타입은 몇 가지 **주의할 점**이 있으며, 잘못 사용하면 **사이드 이펙트**가 발생할 수 있다.
 
@@ -126,7 +126,7 @@ tags: spring, elementcollection
 * Java collection(Array, Map, Set)에 값을 넣을수 있는 것을 컬렉션 값 타입이라 한다.
     
 
-값 타입 컬렉션 Elemont Collection
+값 타입 컬렉션 ElementCollection
 
 > 값 타입(Value Object) 을 List, Set, Map 등의 컬렉션으로 관리하고, 별도의 테이블에 저장하는 JPA 기능
 
@@ -134,7 +134,6 @@ tags: spring, elementcollection
 
 * 한 개의 값 타입 컬렉션당 **1개의 테이블 생성**
     
-
 * **컬렉션마다 별도의 테이블 필요** (하나의 테이블에 여러 컬렉션은 불가)
     
 
