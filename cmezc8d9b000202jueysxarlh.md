@@ -1,6 +1,6 @@
 ---
 title: "[Spring]@ElementCollection"
-datePublished: Sat Jul 19 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Jul 26 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmezc8d9b000202jueysxarlh
 slug: springelementcollection
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756554158814/a07c791a-6373-47f7-9ea2-45ffecf97bc5.png
