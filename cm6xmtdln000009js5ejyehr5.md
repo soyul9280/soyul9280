@@ -1,6 +1,6 @@
 ---
 title: "[Spring] Spring Framework란?"
-datePublished: Sun Feb 09 2025 13:00:10 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Feb 22 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm6xmtdln000009js5ejyehr5
 slug: spring-spring-framework
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739108899965/582f6e67-da48-409e-a3e7-351c0ea0b810.png
