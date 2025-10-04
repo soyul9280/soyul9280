@@ -1,6 +1,6 @@
 ---
 title: "[Spring] @Valid와 @Validated"
-datePublished: Sat Jul 26 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Aug 02 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmezlpjdg000002jwc34yf0ae
 slug: spring-valid-validated
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756637563515/85df09f4-09d3-410f-b57c-eac8eff55101.png
