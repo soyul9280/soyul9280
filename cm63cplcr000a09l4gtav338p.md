@@ -1,6 +1,6 @@
 ---
 title: "[ Java ] Stream Api의 map vs flatMap"
-datePublished: Sun Jan 19 2025 08:24:12 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Feb 01 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm63cplcr000a09l4gtav338p
 slug: java-stream-api-map-vs-flatmap
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737274959744/7925979b-682e-47e3-8367-780b8a42de24.png
