@@ -1,6 +1,6 @@
 ---
 title: "[ Spring ] 프레임워크 vs 라이브러리"
-datePublished: Sun Feb 09 2025 13:44:24 GMT+0000 (Coordinated Universal Time)
+datePublished: Sat Mar 01 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm6xoe9r4000409jxfcn4ex52
 slug: spring-vs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739108925914/7ff9ae8f-3dca-4db2-b78f-523557e3ac18.png
