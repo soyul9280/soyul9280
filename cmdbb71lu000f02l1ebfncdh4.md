@@ -1,6 +1,6 @@
 ---
 title: "[Project] 🌤️ 날씨에 맞는 옷 추천 서비스를 위한 Gemini API 도입기(with.Spring)"
-datePublished: Sat Aug 16 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: Thu Jul 17 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmdbb71lu000f02l1ebfncdh4
 slug: project-gemini-api-withspring
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752993966338/d9ad8be1-e645-47f4-91ba-4f995f94fab2.png
