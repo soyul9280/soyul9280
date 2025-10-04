@@ -1,6 +1,6 @@
 ---
 title: "[Spring] @AllArgsConstructor을 지양하는 이유"
-datePublished: Sat Aug 09 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: Sun Jun 29 2025 15:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmf0zgl0h000h02ju8lcf7kdc
 slug: spring-allargsconstructor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756719696393/93403110-517d-4d27-bc2c-4596278850f9.png
